@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-28T09:50:43.770Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="RQhUMOIP4ezOz1lgjbc0" version="13.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-28T09:53:11.977Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="9cpZiNK9DuJ4mk92RwlJ" version="13.7.5" type="github">
   <diagram id="aUQ_wYazr1DgIkO7knah" name="Page-1">
-    <mxGraphModel dx="1662" dy="1167" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1662" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -208,6 +208,9 @@
         </mxCell>
         <mxCell id="liHzMGaKBJShzQCxFB6B-13" value="事件n挂起队列" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.queue;" vertex="1" parent="1">
           <mxGeometry x="170" y="690" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="liHzMGaKBJShzQCxFB6B-34" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/jumpicon-basic-ui-glyph-1/32/-_Dot-More-Vertical-Menu-128.png" vertex="1" parent="1">
+          <mxGeometry x="280" y="620" width="28" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
