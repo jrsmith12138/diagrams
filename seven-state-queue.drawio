@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-28T09:42:09.855Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="5GERhGjIsZSxwWWIgXeZ" version="13.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-28T09:43:53.376Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="OKQZzEW6PIslVbP6ZDBN" version="13.7.5" type="github">
   <diagram id="aUQ_wYazr1DgIkO7knah" name="Page-1">
     <mxGraphModel dx="1662" dy="1167" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -93,11 +93,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="liHzMGaKBJShzQCxFB6B-16" value="等待事件3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="liHzMGaKBJShzQCxFB6B-8" target="liHzMGaKBJShzQCxFB6B-11">
+        <mxCell id="liHzMGaKBJShzQCxFB6B-16" value="等待事件n&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="liHzMGaKBJShzQCxFB6B-8" target="liHzMGaKBJShzQCxFB6B-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="680" y="100" />
-              <mxPoint x="680" y="730" />
+              <mxPoint x="680" y="710" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -176,7 +176,7 @@
         <mxCell id="liHzMGaKBJShzQCxFB6B-24" value="发生事件n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="liHzMGaKBJShzQCxFB6B-13" target="liHzMGaKBJShzQCxFB6B-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="100" y="730" />
+              <mxPoint x="100" y="710" />
               <mxPoint x="100" y="120" />
             </Array>
           </mxGeometry>
@@ -184,10 +184,10 @@
         <mxCell id="liHzMGaKBJShzQCxFB6B-27" value="换入" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="liHzMGaKBJShzQCxFB6B-13" target="liHzMGaKBJShzQCxFB6B-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="150" y="710" />
-              <mxPoint x="150" y="680" />
-              <mxPoint x="440" y="680" />
-              <mxPoint x="440" y="710" />
+              <mxPoint x="150" y="730" />
+              <mxPoint x="150" y="780" />
+              <mxPoint x="440" y="780" />
+              <mxPoint x="440" y="730" />
             </Array>
           </mxGeometry>
         </mxCell>
