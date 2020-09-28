@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-28T09:48:56.424Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="7rCJzFAalEnv3fFWj94U" version="13.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-28T09:50:43.770Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="RQhUMOIP4ezOz1lgjbc0" version="13.7.5" type="github">
   <diagram id="aUQ_wYazr1DgIkO7knah" name="Page-1">
     <mxGraphModel dx="1662" dy="1167" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,11 +16,12 @@
           <mxGeometry x="170" y="90" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="liHzMGaKBJShzQCxFB6B-18" value="换出" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="liHzMGaKBJShzQCxFB6B-3" target="liHzMGaKBJShzQCxFB6B-7">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.2308" y="-20" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="310" y="370" />
               <mxPoint x="310" y="370" />
             </Array>
+            <mxPoint x="20" y="20" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="liHzMGaKBJShzQCxFB6B-28" value="发生事件1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="liHzMGaKBJShzQCxFB6B-3" target="liHzMGaKBJShzQCxFB6B-4">
@@ -67,13 +68,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="liHzMGaKBJShzQCxFB6B-25" value="换入" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="liHzMGaKBJShzQCxFB6B-7" target="liHzMGaKBJShzQCxFB6B-3">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.4222" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="150" y="370" />
               <mxPoint x="150" y="430" />
               <mxPoint x="440" y="430" />
               <mxPoint x="440" y="370" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="liHzMGaKBJShzQCxFB6B-7" value="事件1挂起队列" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.queue;" vertex="1" parent="1">
@@ -120,11 +122,12 @@
           <mxGeometry x="550" y="95" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="liHzMGaKBJShzQCxFB6B-19" value="换出" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="liHzMGaKBJShzQCxFB6B-10" target="liHzMGaKBJShzQCxFB6B-12">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="0.0769" y="-40" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="290" y="500" />
               <mxPoint x="290" y="500" />
             </Array>
+            <mxPoint x="40" y="40" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="liHzMGaKBJShzQCxFB6B-29" value="发生事件2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="liHzMGaKBJShzQCxFB6B-10" target="liHzMGaKBJShzQCxFB6B-4">
@@ -140,11 +143,12 @@
           <mxGeometry x="360" y="460" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="liHzMGaKBJShzQCxFB6B-20" value="换出" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="liHzMGaKBJShzQCxFB6B-11" target="liHzMGaKBJShzQCxFB6B-13">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.0769" y="-30" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="300" y="730" />
               <mxPoint x="300" y="730" />
             </Array>
+            <mxPoint x="30" y="30" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="liHzMGaKBJShzQCxFB6B-30" value="发生事件n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="liHzMGaKBJShzQCxFB6B-11" target="liHzMGaKBJShzQCxFB6B-4">
@@ -169,13 +173,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="liHzMGaKBJShzQCxFB6B-26" value="换入" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="liHzMGaKBJShzQCxFB6B-12" target="liHzMGaKBJShzQCxFB6B-10">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.4419" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="150" y="500" />
-              <mxPoint x="150" y="550" />
-              <mxPoint x="440" y="550" />
+              <mxPoint x="150" y="560" />
+              <mxPoint x="440" y="560" />
               <mxPoint x="440" y="500" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="liHzMGaKBJShzQCxFB6B-12" value="事件2挂起队列" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.queue;" vertex="1" parent="1">
@@ -191,13 +196,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="liHzMGaKBJShzQCxFB6B-27" value="换入" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="liHzMGaKBJShzQCxFB6B-13" target="liHzMGaKBJShzQCxFB6B-11">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.4222" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="150" y="730" />
-              <mxPoint x="150" y="780" />
-              <mxPoint x="440" y="780" />
+              <mxPoint x="150" y="790" />
+              <mxPoint x="440" y="790" />
               <mxPoint x="440" y="730" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="liHzMGaKBJShzQCxFB6B-13" value="事件n挂起队列" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.queue;" vertex="1" parent="1">
