@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2020-10-17T12:31:26.585Z" agent="5.0 (Windows)" etag="hmCh-09aY2ZWuYddJTTx" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-17T13:07:14.069Z" agent="5.0 (Windows)" etag="layWfJIaslvhDfcKT1Kr" version="13.8.0" type="github">
   <diagram id="yHeF4_bzrxLTXPKwY5sZ" name="Page-1">
     <mxGraphModel dx="2048" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8tCWAQmAQTB_diqJKxat-1" value="商家管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="700" y="280" width="50" height="90" as="geometry" />
+          <mxGeometry x="690" y="260" width="50" height="90" as="geometry" />
         </mxCell>
         <mxCell id="8tCWAQmAQTB_diqJKxat-3" value="客户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="260" width="50" height="90" as="geometry" />
         </mxCell>
         <mxCell id="8tCWAQmAQTB_diqJKxat-6" value="平台管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="640" y="100" width="50" height="90" as="geometry" />
+          <mxGeometry x="1150" y="260" width="50" height="90" as="geometry" />
         </mxCell>
         <mxCell id="8tCWAQmAQTB_diqJKxat-12" value="注册" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="30" width="100" height="70" as="geometry" />
+          <mxGeometry x="105" y="10" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8tCWAQmAQTB_diqJKxat-13" value="登陆" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="110" width="100" height="70" as="geometry" />
@@ -32,10 +32,10 @@
           <mxGeometry x="105" y="500" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8tCWAQmAQTB_diqJKxat-18" value="查询订单" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="105" y="610" width="100" height="70" as="geometry" />
+          <mxGeometry x="-60" y="610" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8tCWAQmAQTB_diqJKxat-19" value="退换货" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="105" y="710" width="100" height="70" as="geometry" />
+          <mxGeometry x="-60" y="700" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8tCWAQmAQTB_diqJKxat-20" value="修改个人信息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-60" y="110" width="100" height="70" as="geometry" />
@@ -57,6 +57,78 @@
         </mxCell>
         <mxCell id="8tCWAQmAQTB_diqJKxat-26" value="支付订单" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-60" y="500" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tCWAQmAQTB_diqJKxat-27" value="使用优惠券" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="390" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tCWAQmAQTB_diqJKxat-30" value="上架商品" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="110" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tCWAQmAQTB_diqJKxat-31" value="修改商品信息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="200" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tCWAQmAQTB_diqJKxat-32" value="下架商品" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="290" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tCWAQmAQTB_diqJKxat-33" value="发放优惠券" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="400" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tCWAQmAQTB_diqJKxat-34" value="作废优惠券" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="500" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tCWAQmAQTB_diqJKxat-35" value="开启优惠活动" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="200" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tCWAQmAQTB_diqJKxat-36" value="关闭优惠活动" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="400" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tCWAQmAQTB_diqJKxat-37" value="修改店铺信息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="110" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tCWAQmAQTB_diqJKxat-38" value="修改活动信息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="290" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tCWAQmAQTB_diqJKxat-39" value="处理退换货申请" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="500" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tCWAQmAQTB_diqJKxat-40" value="封停店铺" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="109" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tCWAQmAQTB_diqJKxat-41" value="封停账号" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="199" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tCWAQmAQTB_diqJKxat-42" value="审核评论" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="290" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tCWAQmAQTB_diqJKxat-43" value="新增商品类别" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="390" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tCWAQmAQTB_diqJKxat-44" value="变更商品类别" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="610" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tCWAQmAQTB_diqJKxat-45" value="新增品牌" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="390" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tCWAQmAQTB_diqJKxat-46" value="变更商品品牌" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="610" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tCWAQmAQTB_diqJKxat-47" value="投放广告" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="109" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tCWAQmAQTB_diqJKxat-48" value="修改广告内容" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="290" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tCWAQmAQTB_diqJKxat-49" value="下架广告" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="199" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tCWAQmAQTB_diqJKxat-50" value="开启话题" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="710" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tCWAQmAQTB_diqJKxat-51" value="修改话题信息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="820" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tCWAQmAQTB_diqJKxat-52" value="关闭话题" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="930" width="100" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
