@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-21T12:02:28.885Z" agent="5.0 (Windows)" etag="L8y2w3rPRmklLFFU3-Dw" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-21T12:21:56.278Z" agent="5.0 (Windows)" etag="hXBig0iuXnxwDzkVtlr-" version="13.10.0" type="github">
   <diagram id="Pme9fIOPrRiLOFCRXLsO" name="Page-1">
     <mxGraphModel dx="1038" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,6 +44,21 @@
         </mxCell>
         <mxCell id="bKF1onNrk28GbELkqHRm-12" value="国家经济发展程度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="374" y="30" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bKF1onNrk28GbELkqHRm-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="bKF1onNrk28GbELkqHRm-14" target="bKF1onNrk28GbELkqHRm-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bKF1onNrk28GbELkqHRm-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="bKF1onNrk28GbELkqHRm-14" target="bKF1onNrk28GbELkqHRm-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bKF1onNrk28GbELkqHRm-14" value="democracy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bKF1onNrk28GbELkqHRm-16" value="country" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="480" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bKF1onNrk28GbELkqHRm-18" value="democracy_index" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
