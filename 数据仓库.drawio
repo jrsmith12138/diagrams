@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2020-11-21T11:48:00.161Z" agent="5.0 (Windows)" version="13.10.0" etag="kgNSXz5jQYS5iNkMMP27" type="github"><diagram id="Pme9fIOPrRiLOFCRXLsO">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-21T12:02:28.885Z" agent="5.0 (Windows)" etag="L8y2w3rPRmklLFFU3-Dw" version="13.10.0" type="github">
+  <diagram id="Pme9fIOPrRiLOFCRXLsO" name="Page-1">
+    <mxGraphModel dx="1038" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bKF1onNrk28GbELkqHRm-1" value="新冠疫情死亡情况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="130" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bKF1onNrk28GbELkqHRm-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bKF1onNrk28GbELkqHRm-3" target="bKF1onNrk28GbELkqHRm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bKF1onNrk28GbELkqHRm-3" value="国家民主程度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="130" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bKF1onNrk28GbELkqHRm-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bKF1onNrk28GbELkqHRm-4" target="bKF1onNrk28GbELkqHRm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bKF1onNrk28GbELkqHRm-4" value="国家医疗水平" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="130" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bKF1onNrk28GbELkqHRm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bKF1onNrk28GbELkqHRm-6" target="bKF1onNrk28GbELkqHRm-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bKF1onNrk28GbELkqHRm-6" value="国家所处地区" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="270" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bKF1onNrk28GbELkqHRm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bKF1onNrk28GbELkqHRm-7" target="bKF1onNrk28GbELkqHRm-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bKF1onNrk28GbELkqHRm-7" value="国家检测能力" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="270" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bKF1onNrk28GbELkqHRm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bKF1onNrk28GbELkqHRm-12" target="bKF1onNrk28GbELkqHRm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bKF1onNrk28GbELkqHRm-12" value="国家经济发展程度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="30" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
