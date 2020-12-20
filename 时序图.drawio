@@ -1,1 +1,203 @@
-<mxfile host="app.diagrams.net" modified="2020-12-20T16:30:45.582Z" agent="5.0 (Windows)" version="14.1.1" etag="DLOLjx5KCPU4U8IIjtiD" type="github"><diagram id="XvyM417pwiQkXbIRkVmS">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-20T17:41:22.280Z" agent="5.0 (Windows)" etag="d9t2lC-us4rjwb6Ijugz" version="14.1.1" type="github">
+  <diagram id="XvyM417pwiQkXbIRkVmS" name="Page-1">
+    <mxGraphModel dx="2557" dy="978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MDOoDEjRiofSLdFRRyra-8" value="&lt;div&gt;service:GrouponService&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="20" width="340" height="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MDOoDEjRiofSLdFRRyra-8">
+          <mxGeometry x="160" y="150" width="20" height="980" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-55" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;dashed=1;" edge="1" parent="MDOoDEjRiofSLdFRRyra-8" target="MDOoDEjRiofSLdFRRyra-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="520" as="sourcePoint" />
+            <mxPoint x="371.18000000000006" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-10" value="Dao:GoodSkuDao" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="40" width="160" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MDOoDEjRiofSLdFRRyra-10">
+          <mxGeometry x="70" y="320" width="20" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-11" value="Mapper:GrouponActivityMapper" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="40" width="200" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-12" value="Mapper:GoodsSpuMapper" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="40" width="200" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-45" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MDOoDEjRiofSLdFRRyra-12">
+          <mxGeometry x="90" y="360" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-26" value="1:createGrouponActivity(shopId,id,GrouponActivityVo)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="120" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-27" value="Controller:GrouponController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="40" width="180" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MDOoDEjRiofSLdFRRyra-27">
+          <mxGeometry x="80" y="70" width="20" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="MDOoDEjRiofSLdFRRyra-27">
+          <mxGeometry x="100" y="140" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-36" value="2GrouponActivity = new GrouponActivity(GrouponActivityVo)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="MDOoDEjRiofSLdFRRyra-35" parent="MDOoDEjRiofSLdFRRyra-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="120" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="130" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-30" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-420" y="150" as="sourcePoint" />
+            <mxPoint x="-110" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-32" value="3:obj:=createGrouponActivity(GrouponActivity)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="210" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-33" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="MDOoDEjRiofSLdFRRyra-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100.5" y="230" as="sourcePoint" />
+            <mxPoint x="240" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-9" value="Dao:GrouponDao" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="40" width="160" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MDOoDEjRiofSLdFRRyra-9">
+          <mxGeometry x="70" y="190" width="20" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="MDOoDEjRiofSLdFRRyra-9">
+          <mxGeometry x="90" y="260" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-41" value="5:po:=grouponActivity.getGrouponActivityPo()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="MDOoDEjRiofSLdFRRyra-40" parent="MDOoDEjRiofSLdFRRyra-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="120" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-53" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="MDOoDEjRiofSLdFRRyra-9">
+          <mxGeometry x="-170" y="460" width="307" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-56" value="10:return:RESOURCE_ID_NOTEXITS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MDOoDEjRiofSLdFRRyra-9">
+          <mxGeometry x="-130" y="500" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-38" value="4:obj:=createGrouponActivity(GrouponActivity)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="240" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-39" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="MDOoDEjRiofSLdFRRyra-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="260" as="sourcePoint" />
+            <mxPoint x="800" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-42" value="6:spuPo=getspuById(po.spu_id)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="370" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-43" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="MDOoDEjRiofSLdFRRyra-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="390" as="sourcePoint" />
+            <mxPoint x="1139.5" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="790" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-46" value="7:spuPo:=selectbyprimaryKey(id)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="400" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-47" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="MDOoDEjRiofSLdFRRyra-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="420" as="sourcePoint" />
+            <mxPoint x="1469.5" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1140" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-49" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="440" as="sourcePoint" />
+            <mxPoint x="1689.5" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1140" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-50" value="8:return" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="450" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-51" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;dashed=1;" edge="1" parent="1" source="MDOoDEjRiofSLdFRRyra-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="827" y="470" as="sourcePoint" />
+            <mxPoint x="1126.5" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="847" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-52" value="9:return" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="885" y="450" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-54" value="spuPo = = null" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="500" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-57" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;dashed=1;exitX=0.5;exitY=0.528;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MDOoDEjRiofSLdFRRyra-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-60" y="580" as="sourcePoint" />
+            <mxPoint x="359.49999999999955" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-58" value="11:return:RESOURCE_ID_NOTEXITS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="560" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-59" value="spuPo.shopid !=po.shopid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="620" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-61" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350.5" y="690" as="sourcePoint" />
+            <mxPoint x="769.9999999999995" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410.5" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-62" value="12:return:RESOURCE_ID_OUTSCOPE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="670" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-63" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="620" width="307" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-64" value="" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;dashed=1;exitX=0.5;exitY=0.528;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="720.0000000000003" as="sourcePoint" />
+            <mxPoint x="359.49999999999955" y="720.08" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="720.08" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MDOoDEjRiofSLdFRRyra-66" value="13:return:RESOURCE_ID_OUTSCOPE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="700" width="130" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
